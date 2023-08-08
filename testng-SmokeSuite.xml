@@ -7,6 +7,9 @@
 			<!-- <exclude name="SmokeSuite"></exclude>-->
 		</run>
 	</groups>
+	<listeners>
+		<listener class-name="vtiger.GenericUtilities.ListenerImplementationClass"></listener>
+	</listeners>
   <test thread-count="5" name="Test">
     <classes>
       <class name="vtiger.OpportunitiesTests.CreateOpportunityWithContactTest"/>
